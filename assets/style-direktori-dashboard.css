@@ -1,0 +1,139 @@
+/* --- Register Alumni --- */
+
+.form-register label{
+    width: 80%;
+}
+
+.form-register input{
+    width: 100%;
+}
+
+.form-register input[type=text],
+.form-register input[type=email],
+.form-register input[type=password],
+.form-register input[type=date],
+.form-register input[type=number],
+.form-register input[type=tel],
+.form-register select {
+    color: #909090;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.form-register select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Some browsers will not display the caret when using calc, so we put the fallback first */ 
+    background: url("assets/src/dropdown.png") white no-repeat 98.5% !important;
+    background: url("assets/src/dropdown.png") white no-repeat calc(100% - 20px) !important; 
+}
+
+.term-form input[type=checkbox]{
+    margin-top: 5px;
+}
+
+.form-register input[type=submit] {
+    width: 150px;
+    font-size: 18px;
+    background-color: #19B0FF;
+    font-weight: 300;
+    color: white;
+    padding: 8px 20px;
+    margin: 50px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-register .term-form{
+    margin-top: 10px;
+}
+.form-register .term-form .left{
+    width: 5%;
+}
+.form-register .term-form .right{
+    width: 95%;
+}
+
+/*------------ */
+
+.form-alumni h3{
+    margin: 80px 0 20px 50px;
+}
+.form-container-alumni{
+    padding: 50px;
+    border: 1px solid #A4C719;
+    border-radius: 8px;
+}
+
+.form-container-alumni p{
+    border-bottom: 1px solid #A4C719;
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+.form-container-alumni form{
+    width: 60%;
+    margin-left: 5%;
+}
+
+.form-socialmedia{
+    margin-left: 10%;
+    float: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 400;
+}
+.form-socialmedia label{
+    flex: 1;
+}
+.form-socialmedia input{
+    flex: 2;
+}
+
+.form-socialmedia.upload-profile {
+    margin: 0;
+}
+.form-container-alumni .form-register input,
+.form-container-alumni .form-register select{
+    margin-bottom: 30px;
+}
+
+.form-container-alumni .form-register .form-socialmedia input,
+.form-container-alumni .form-register .form-socialmedia select{
+    margin-bottom: 0px
+} 
+
+.form-socialmedia.upload-profile div{
+    flex: 2;
+    margin-left: 40px;
+}
+.form-socialmedia.upload-profile img{
+    flex: 1;
+    max-width: 100px;
+}
+.form-socialmedia.upload-profile{
+    font-size: 16px;
+}
+.form-register input[type=file]{
+    margin-top: 5px;
+}
+.form-wrapper{
+    margin-bottom: 100px;
+}
+
+.direktori-dashboard{
+    width: 60%;
+    margin-left: 5%;
+}
